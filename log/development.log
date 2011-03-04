@@ -1,0 +1,1089 @@
+  [1m[36mSQL (1.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (2.0ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings"
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRefinerySetting Load (0.3ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."name" = 'dragonfly_secret' AND "refinery_settings"."scoping" IS NULL LIMIT 1[0m
+  [1m[35mAREL (0.8ms)[0m  INSERT INTO "refinery_settings" ("name", "value", "destroyable", "created_at", "updated_at", "scoping", "restricted", "callback_proc_as_string", "form_value_type") VALUES ('dragonfly_secret', '--- 162bfa207ca1379663ccf8e1353e23654b2e87dd956e93f7
+', 't', '2011-03-03 10:11:12.466199', '2011-03-03 10:11:12.466199', NULL, 'f', NULL, 'text_area')
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (0.8ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings"
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRefinerySetting Load (0.3ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."name" = 'i18n_translation_default_frontend_locale' AND "refinery_settings"."scoping" = 'refinery' LIMIT 1[0m
+  [1m[35mAREL (0.5ms)[0m  INSERT INTO "refinery_settings" ("name", "value", "destroyable", "created_at", "updated_at", "scoping", "restricted", "callback_proc_as_string", "form_value_type") VALUES ('i18n_translation_default_frontend_locale', '--- :en
+', 't', '2011-03-03 10:11:14.486520', '2011-03-03 10:11:14.486520', 'refinery', 'f', '--- "::Refinery::I18n.setup!"
+', 'text_area')
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (0.9ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings"
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (0.3ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."name" = 'approximate_ascii' AND "refinery_settings"."scoping" = 'pages' LIMIT 1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "refinery_settings" ("name", "value", "destroyable", "created_at", "updated_at", "scoping", "restricted", "callback_proc_as_string", "form_value_type") VALUES ('approximate_ascii', '--- "false"
+', 't', '2011-03-03 10:11:14.504330', '2011-03-03 10:11:14.504330', 'pages', 'f', NULL, 'text_area')[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRefinerySetting Load (1.2ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings"[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRefinerySetting Load (0.3ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."name" = 'i18n_translation_default_locale' AND "refinery_settings"."scoping" = 'refinery' LIMIT 1[0m
+  [1m[35mAREL (0.6ms)[0m  INSERT INTO "refinery_settings" ("name", "value", "destroyable", "created_at", "updated_at", "scoping", "restricted", "callback_proc_as_string", "form_value_type") VALUES ('i18n_translation_default_locale', '--- :en
+', 't', '2011-03-03 10:11:14.652567', '2011-03-03 10:11:14.652567', 'refinery', 'f', '--- "::Refinery::I18n.setup!"
+', 'text_area')
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (1.0ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings"
+  [1m[36mSQL (1.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (1.2ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings"
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+Migrating to CreateRefinerycmsCoreSchema (20110303100825)
+Migrating to AddLocaleToSlugs (20110303100826)
+Migrating to CreateRefinerycmsSettingsSchema (20110303100827)
+Migrating to AddValueTypeToRefinerySettings (20110303100828)
+Migrating to CreateRefinerycmsAuthenticationSchema (20110303100829)
+Migrating to AddMissingIndexesToRolesUsers (20110303100830)
+Migrating to ChangeToDeviseUsersTable (20110303100831)
+Migrating to AddRememberCreatedAtToUsers (20110303100832)
+Migrating to CreateRefinerycmsImagesSchema (20110303100833)
+Migrating to CreateRefinerycmsPagesSchema (20110303100834)
+Migrating to TranslatePagePlugin (20110303100835)
+Migrating to RemoveCachedSlugFromPages (20110303100836)
+Migrating to CreateRefinerycmsResourcesSchema (20110303100837)
+  [1m[36mSQL (2.5ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (73.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("images")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("page_part_translations")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_page_part_translations_on_page_part_id')[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("page_parts")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_page_parts_on_page_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_page_parts_on_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("page_translations")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_page_translations_on_page_id')
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("pages")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_rgt')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_parent_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_lft')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_pages_on_id')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_pages_on_depth')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("refinery_settings")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_refinery_settings_on_name')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("resources")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("roles")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("roles_users")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_roles_users_on_user_id_and_role_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_roles_users_on_role_id_and_user_id')[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("slugs")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_slugs_on_locale')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_slugs_on_sluggable_id')
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_slugs_on_n_s_s_and_s')[0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("user_plugins")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_unique_user_plugins')[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_user_plugins_on_title')
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_users_on_id')
+  [1m[36mSQL (19.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (1.1ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings"
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (1.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (1.1ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings"
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-03 18:21:49 +0530
+  [1m[36mSQL (2.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (0.3ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."name" = 'i18n_translation_enabled' AND "refinery_settings"."scoping" = 'refinery' LIMIT 1
+  [1m[36mAREL (1.1ms)[0m  [1mINSERT INTO "refinery_settings" ("name", "value", "destroyable", "created_at", "updated_at", "scoping", "restricted", "callback_proc_as_string", "form_value_type") VALUES ('i18n_translation_enabled', '--- "true"
+', 't', '2011-03-03 12:51:49.814871', '2011-03-03 12:51:49.814871', 'refinery', 'f', '--- "::Refinery::I18n.setup!"
+', 'text_area')[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRefinerySetting Load (2.0ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings"[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRefinerySetting Load (0.7ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."name" = 'i18n_translation_locales' AND "refinery_settings"."scoping" = 'refinery' LIMIT 1[0m
+  [1m[35mAREL (0.9ms)[0m  INSERT INTO "refinery_settings" ("name", "value", "destroyable", "created_at", "updated_at", "scoping", "restricted", "callback_proc_as_string", "form_value_type") VALUES ('i18n_translation_locales', '--- 
+:en: English
+:fr: "Fran\xC3\xA7ais"
+:nl: Nederlands
+:"pt-BR": "Portugu\xC3\xAAs"
+:da: Dansk
+:nb: "Norsk Bokm\xC3\xA5l"
+:sl: Slovenian
+:es: "Espa\xC3\xB1ol"
+:it: Italiano
+:de: Deutsch
+:lv: Latviski
+:ru: "\xD0\xA0\xD1\x83\xD1\x81\xD1\x81\xD0\xBA\xD0\xB8\xD0\xB9"
+:sv: Svenska
+:pl: Polski
+:"zh-CN": Simplified Chinese
+:"zh-TW": Traditional Chinese
+:el: "\xCE\x95\xCE\xBB\xCE\xBB\xCE\xB7\xCE\xBD\xCE\xB9\xCE\xBA\xCE\xAC"
+:rs: Srpski
+:cs: "\xC4\x8Cesky"
+', 't', '2011-03-03 12:51:50.061421', '2011-03-03 12:51:50.061421', 'refinery', 'f', '--- "::Refinery::I18n.setup!"
+', 'text_area')
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (2.0ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings"
+  Processing by PagesController#home as HTML
+  Parameters: {"locale"=>:en}
+  [1m[36mRole Load (0.2ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1[0m
+  [1m[35mRole Load (0.7ms)[0m  SELECT "roles"."id" FROM "roles" WHERE ("roles"."title" = 'Refinery') LIMIT 1
+  [1m[36mAREL (1.9ms)[0m  [1mINSERT INTO "roles" ("title") VALUES ('Refinery')[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT * FROM "users" INNER JOIN "roles_users" ON "users".id = "roles_users".user_id WHERE ("roles_users".role_id = 1 )
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_html_tag.html.erb (0.7ms)
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (0.3ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."name" = 'site_name' AND "refinery_settings"."scoping" IS NULL LIMIT 1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "refinery_settings" ("name", "value", "destroyable", "created_at", "updated_at", "scoping", "restricted", "callback_proc_as_string", "form_value_type") VALUES ('site_name', '--- Company Name
+', 't', '2011-03-03 12:51:50.822143', '2011-03-03 12:51:50.822143', NULL, 'f', NULL, 'text_area')[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRefinerySetting Load (2.3ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings"[0m
+  [1m[35mSQL (2.7ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRefinerySetting Load (0.3ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."name" = 'use_resource_caching' AND "refinery_settings"."scoping" IS NULL LIMIT 1[0m
+  [1m[35mAREL (0.5ms)[0m  INSERT INTO "refinery_settings" ("name", "value", "destroyable", "created_at", "updated_at", "scoping", "restricted", "callback_proc_as_string", "form_value_type") VALUES ('use_resource_caching', '--- "true"
+', 't', '2011-03-03 12:51:50.843018', '2011-03-03 12:51:50.843018', NULL, 'f', NULL, 'text_area')
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (2.8ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings"
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/admin/_head.html.erb (105.1ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_message.html.erb (1.2ms)
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (0.3ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."name" = 'use_google_ajax_libraries' AND "refinery_settings"."scoping" IS NULL LIMIT 1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "refinery_settings" ("name", "value", "destroyable", "created_at", "updated_at", "scoping", "restricted", "callback_proc_as_string", "form_value_type") VALUES ('use_google_ajax_libraries', '--- "false"
+', 't', '2011-03-03 12:51:50.969060', '2011-03-03 12:51:50.969060', NULL, 'f', NULL, 'text_area')[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRefinerySetting Load (3.6ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings"[0m
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/admin/_javascripts.html.erb (41.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/welcome.html.erb within layouts/login (260.0ms)
+Completed 200 OK in 753ms (Views: 395.8ms | ActiveRecord: 30.5ms)
+
+
+Started GET "/registrations/register" for 127.0.0.1 at 2011-03-03 18:21:53 +0530
+  Processing by RegistrationsController#new as HTML
+  Parameters: {"locale"=>:en}
+  [1m[35mSQL (2.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRole Load (0.3ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT * FROM "users" INNER JOIN "roles_users" ON "users".id = "roles_users".user_id WHERE ("roles_users".role_id = 1 )[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT * FROM "users" INNER JOIN "roles_users" ON "users".id = "roles_users".user_id WHERE ("roles_users".role_id = 1 )[0m
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/admin/_error_messages.html.erb (1.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT * FROM "users" INNER JOIN "roles_users" ON "users".id = "roles_users".user_id WHERE ("roles_users".role_id = 1 )[0m
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/admin/_form_actions.html.erb (2.9ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_html_tag.html.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/admin/_head.html.erb (9.4ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_message.html.erb (1.1ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/admin/_javascripts.html.erb (4.2ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-authentication-0.9.9.4/app/views/registrations/new.html.erb within layouts/login (126.5ms)
+Completed 200 OK in 799ms (Views: 160.5ms | ActiveRecord: 3.7ms)
+
+
+Started POST "/registrations" for 127.0.0.1 at 2011-03-03 18:22:23 +0530
+  Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z7sggyIofUWnwW2LNrTSg+qVegDSnfVN589SGy3Pmsc=", "user"=>{"username"=>"parakh", "email"=>"subbarao@parakhtechnologies.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "plugins"=>["refinery_dashboard", "refinery_files", "refinery_images", "refinery_pages", "refinery_settings", "refinery_users"]}, "locale"=>:en}
+  [1m[35mSQL (2.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRole Load (0.7ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1[0m
+  [1m[35mSQL (2.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT * FROM "users" INNER JOIN "roles_users" ON "users".id = "roles_users".user_id WHERE ("roles_users".role_id = 1 )[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT * FROM "users" INNER JOIN "roles_users" ON "users".id = "roles_users".user_id WHERE ("roles_users".role_id = 1 )[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users"."id" FROM "users" WHERE (LOWER("users"."email") = LOWER('subbarao@parakhtechnologies.com')) LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users"."id" FROM "users" WHERE ("users"."username" = 'parakh') LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users"."id" FROM "users" WHERE (LOWER("users"."email") = LOWER('subbarao@parakhtechnologies.com')) LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users"."id" FROM "users" WHERE ("users"."username" = 'parakh') LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mAREL (0.6ms)[0m  [1mINSERT INTO "users" ("username", "email", "encrypted_password", "password_salt", "persistence_token", "created_at", "updated_at", "perishable_token", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "sign_in_count", "remember_token", "reset_password_token", "remember_created_at") VALUES ('parakh', 'subbarao@parakhtechnologies.com', '$2a$10$GUeula9WfkQaCKnKjnMCz.ez3NRv9SmagNxGgdTSBwmS8MVLHsdky', '$2a$10$GUeula9WfkQaCKnKjnMCz.', NULL, '2011-03-03 12:52:25.680341', '2011-03-03 12:52:25.680341', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)[0m
+  [1m[35mSlug Load (0.2ms)[0m  SELECT "slugs".* FROM "slugs" WHERE ("slugs".sluggable_id = NULL AND "slugs".sluggable_type = 'User') ORDER BY id DESC
+  [1m[36mSlug Load (0.2ms)[0m  [1mSELECT "slugs".* FROM "slugs" WHERE "slugs"."name" = 'parakh' AND "slugs"."scope" IS NULL AND ("slugs".sluggable_id = NULL AND "slugs".sluggable_type = 'User') ORDER BY id DESC[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT COUNT(*) FROM "slugs" WHERE "slugs"."name" = 'parakh' AND "slugs"."scope" IS NULL AND "slugs"."sluggable_type" = 'User'
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "slugs" ("name", "sluggable_id", "sequence", "sluggable_type", "scope", "created_at", "locale") VALUES ('parakh', 1, 1, 'User', NULL, '2011-03-03 12:52:25.710998', 'en')[0m
+  [1m[35mRole Load (0.3ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1
+  [1m[36mRole Load (0.3ms)[0m  [1mSELECT * FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles_users".user_id = 1 )[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "roles_users" ("user_id", "role_id") VALUES (1, 1)[0m
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "user_plugins" WHERE "user_plugins"."user_id" = 1
+  [1m[36mAREL (0.6ms)[0m  [1mINSERT INTO "user_plugins" ("user_id", "name", "position") VALUES (1, 'refinery_dashboard', 0)[0m
+  [1m[35mAREL (0.5ms)[0m  INSERT INTO "user_plugins" ("user_id", "name", "position") VALUES (1, 'refinery_files', 1)
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "user_plugins" ("user_id", "name", "position") VALUES (1, 'refinery_images', 2)[0m
+  [1m[35mAREL (0.5ms)[0m  INSERT INTO "user_plugins" ("user_id", "name", "position") VALUES (1, 'refinery_pages', 3)
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "user_plugins" ("user_id", "name", "position") VALUES (1, 'refinery_settings', 4)[0m
+  [1m[35mAREL (0.6ms)[0m  INSERT INTO "user_plugins" ("user_id", "name", "position") VALUES (1, 'refinery_users', 5)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users"."id" FROM "users" WHERE (LOWER("users"."email") = LOWER('subbarao@parakhtechnologies.com')) AND ("users".id <> 1) LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users"."id" FROM "users" WHERE ("users"."username" = 'parakh') AND ("users".id <> 1) LIMIT 1
+  [1m[36mSlug Load (3.7ms)[0m  [1mSELECT "slugs".* FROM "slugs" WHERE ("slugs".sluggable_id = 1 AND "slugs".sluggable_type = 'User' AND ("slugs"."locale" = 'en')) ORDER BY id DESC LIMIT 1[0m
+  [1m[35mRole Load (0.3ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "roles_users" ON "users".id = "roles_users".user_id WHERE ("roles_users".role_id = 1 )[0m
+  [1m[35mRole Load (0.3ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Superuser' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Superuser' LIMIT 1[0m
+  [1m[35mRole Load (0.2ms)[0m  SELECT "roles"."id" FROM "roles" WHERE ("roles"."title" = 'Superuser') LIMIT 1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "roles" ("title") VALUES ('Superuser')[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "roles_users" ("user_id", "role_id") VALUES (1, 2)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users"."id" FROM "users" WHERE (LOWER("users"."email") = LOWER('subbarao@parakhtechnologies.com')) AND ("users".id <> 1) LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users"."id" FROM "users" WHERE ("users"."username" = 'parakh') AND ("users".id <> 1) LIMIT 1
+  [1m[36mRefinerySetting Load (0.9ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."name" = 'site_name' LIMIT 1[0m
+  [1m[35mAREL (0.7ms)[0m  UPDATE "users" SET "last_sign_in_at" = '2011-03-03 12:52:26.010649', "current_sign_in_at" = '2011-03-03 12:52:26.010649', "last_sign_in_ip" = '127.0.0.1', "current_sign_in_ip" = '127.0.0.1', "sign_in_count" = 1, "updated_at" = '2011-03-03 12:52:26.012009' WHERE "users"."id" = 1
+Redirected to http://localhost:3000/refinery
+  [1m[36mRole Load (0.3ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1[0m
+Completed 302 Found in 2177ms
+
+
+Started GET "/refinery" for 127.0.0.1 at 2011-03-03 18:22:26 +0530
+  Processing by Admin::DashboardController#index as HTML
+  Parameters: {"locale"=>:en}
+  [1m[35mSQL (1.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRefinerySetting Load (0.3ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."name" = 'i18n_translation_current_locale' AND "refinery_settings"."scoping" = 'refinery' LIMIT 1[0m
+  [1m[35mAREL (0.6ms)[0m  INSERT INTO "refinery_settings" ("name", "value", "destroyable", "created_at", "updated_at", "scoping", "restricted", "callback_proc_as_string", "form_value_type") VALUES ('i18n_translation_current_locale', '--- :en
+', 't', '2011-03-03 12:52:26.339100', '2011-03-03 12:52:26.339100', 'refinery', 'f', '--- "::Refinery::I18n.setup!"
+', 'text_area')
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (6.0ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings"
+  [1m[36mRole Load (0.3ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mUser Load (1.6ms)[0m  [1mSELECT * FROM "users" INNER JOIN "roles_users" ON "users".id = "roles_users".user_id WHERE ("roles_users".role_id = 1 )[0m
+  [1m[35mUser Load (1.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mUserPlugin Load (0.6ms)[0m  [1mSELECT "user_plugins".* FROM "user_plugins" WHERE ("user_plugins".user_id = 1) ORDER BY position ASC[0m
+  [1m[35mRole Load (0.3ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Superuser' LIMIT 1
+  [1m[36mRole Load (0.4ms)[0m  [1mSELECT * FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles_users".user_id = 1 )[0m
+  [1m[35mAREL (4.6ms)[0m  DELETE FROM "user_plugins" WHERE "user_plugins"."user_id" = 1
+  [1m[36mAREL (0.6ms)[0m  [1mINSERT INTO "user_plugins" ("user_id", "name", "position") VALUES (1, 'refinery_dashboard', 0)[0m
+  [1m[35mAREL (0.5ms)[0m  INSERT INTO "user_plugins" ("user_id", "name", "position") VALUES (1, 'refinery_files', 1)
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "user_plugins" ("user_id", "name", "position") VALUES (1, 'refinery_images', 2)[0m
+  [1m[35mAREL (0.6ms)[0m  INSERT INTO "user_plugins" ("user_id", "name", "position") VALUES (1, 'refinery_pages', 3)
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "user_plugins" ("user_id", "name", "position") VALUES (1, 'refinery_settings', 4)[0m
+  [1m[35mAREL (0.5ms)[0m  INSERT INTO "user_plugins" ("user_id", "name", "position") VALUES (1, 'refinery_users', 5)
+  [1m[36mAREL (0.6ms)[0m  [1mINSERT INTO "user_plugins" ("user_id", "name", "position") VALUES (1, 'refinerycms_base', 6)[0m
+  [1m[35mAREL (0.5ms)[0m  INSERT INTO "user_plugins" ("user_id", "name", "position") VALUES (1, 'refinery_core', 7)
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "user_plugins" ("user_id", "name", "position") VALUES (1, 'refinery_dialogs', 8)[0m
+  [1m[35mAREL (0.5ms)[0m  INSERT INTO "user_plugins" ("user_id", "name", "position") VALUES (1, 'refinery_i18n', 9)
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "user_plugins" ("user_id", "name", "position") VALUES (1, 'refinery_generators', 10)[0m
+  [1m[35mResource Load (0.4ms)[0m  SELECT "resources".* FROM "resources" ORDER BY updated_at DESC LIMIT 7
+  [1m[36mImage Load (0.3ms)[0m  [1mSELECT "images".* FROM "images" ORDER BY updated_at DESC LIMIT 7[0m
+  [1m[35mPage Load (8.1ms)[0m  SELECT "pages".* FROM "pages" ORDER BY updated_at DESC LIMIT 7
+  [1m[36mUser Load (1.5ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY updated_at DESC LIMIT 7[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRefinerySetting Load (0.3ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."name" = 'activity_show_limit' AND "refinery_settings"."scoping" IS NULL LIMIT 1[0m
+  [1m[35mAREL (0.5ms)[0m  INSERT INTO "refinery_settings" ("name", "value", "destroyable", "created_at", "updated_at", "scoping", "restricted", "callback_proc_as_string", "form_value_type") VALUES ('activity_show_limit', '--- 7
+', 't', '2011-03-03 12:52:26.988377', '2011-03-03 12:52:26.988377', NULL, 'f', NULL, 'text_area')
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (3.4ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings"
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSlug Load (4.0ms)[0m  SELECT "slugs".* FROM "slugs" WHERE ("slugs".sluggable_id = 1 AND "slugs".sluggable_type = 'User') ORDER BY id DESC
+  [1m[36mSQL (1.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mPage::Translation Load (3.8ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 3)
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSlug Load (1.1ms)[0m  SELECT "slugs".* FROM "slugs" WHERE ("slugs".sluggable_id = 3 AND "slugs".sluggable_type = 'Page') ORDER BY id DESC
+  [1m[36mPage::Translation Load (1.5ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 2)[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSlug Load (0.9ms)[0m  [1mSELECT "slugs".* FROM "slugs" WHERE ("slugs".sluggable_id = 2 AND "slugs".sluggable_type = 'Page') ORDER BY id DESC[0m
+  [1m[35mPage::Translation Load (1.4ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 1)
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSlug Load (0.8ms)[0m  SELECT "slugs".* FROM "slugs" WHERE ("slugs".sluggable_id = 1 AND "slugs".sluggable_type = 'Page') ORDER BY id DESC
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-dashboard-0.9.9.4/app/views/admin/dashboard/_recent_activity.html.erb (444.9ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-dashboard-0.9.9.4/app/views/admin/dashboard/_additional_dashboard_menu_items.html.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_html_tag.html.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/admin/_head.html.erb (6.4ms)
+  [1m[36mRole Load (0.3ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1[0m
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_site_bar.html.erb (5.0ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/admin/_menu.html.erb (5.1ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_no_script.html.erb (1.3ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_message.html.erb (1.5ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/admin/_javascripts.html.erb (18.3ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-dashboard-0.9.9.4/app/views/admin/dashboard/index.html.erb within layouts/admin (626.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1
+Completed 200 OK in 1419ms (Views: 682.6ms | ActiveRecord: 78.8ms)
+
+
+Started GET "/refinery/settings/8/edit?app_dialog=true&dialog=true" for 127.0.0.1 at 2011-03-03 18:22:34 +0530
+  [1m[36mSQL (1.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  Processing by Admin::RefinerySettingsController#edit as HTML
+  Parameters: {"app_dialog"=>"true", "dialog"=>"true", "id"=>"8", "locale"=>:en}
+  [1m[35mRefinerySetting Load (1.0ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."id" = 8 LIMIT 1
+  [1m[36mRole Load (0.4ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mUser Load (1.6ms)[0m  [1mSELECT * FROM "users" INNER JOIN "roles_users" ON "users".id = "roles_users".user_id WHERE ("roles_users".role_id = 1 )[0m
+  [1m[35mUser Load (1.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mUserPlugin Load (0.7ms)[0m  [1mSELECT "user_plugins".* FROM "user_plugins" WHERE ("user_plugins".user_id = 1) ORDER BY position ASC[0m
+  [1m[35mRole Load (0.3ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Superuser' LIMIT 1
+  [1m[36mRole Load (0.4ms)[0m  [1mSELECT * FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles_users".user_id = 1 )[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."id" = 8 LIMIT 1
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/admin/_error_messages.html.erb (1.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Superuser' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Superuser' LIMIT 1
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/admin/_form_actions.html.erb (3.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Superuser' LIMIT 1[0m
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-settings-0.9.9.4/app/views/admin/refinery_settings/_form.html.erb (56.0ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_html_tag.html.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/admin/_head.html.erb (6.5ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_message.html.erb (1.2ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/admin/_javascripts.html.erb (11.0ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-settings-0.9.9.4/app/views/admin/refinery_settings/edit.html.erb within layouts/admin_dialog (149.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1
+Completed 200 OK in 589ms (Views: 201.4ms | ActiveRecord: 7.7ms)
+
+
+Started POST "/refinery/settings/8" for 127.0.0.1 at 2011-03-03 18:23:27 +0530
+  [1m[36mSQL (2.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  Processing by Admin::RefinerySettingsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z7sggyIofUWnwW2LNrTSg+qVegDSnfVN589SGy3Pmsc=", "refinery_setting"=>{"restricted"=>"0", "value"=>"LYNXARC"}, "modal"=>"true", "dialog"=>"true", "id"=>"8", "locale"=>:en}
+  [1m[35mRefinerySetting Load (1.2ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."id" = 8 LIMIT 1
+  [1m[36mRole Load (0.2ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1[0m
+  [1m[35mSQL (0.9ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mUser Load (2.3ms)[0m  [1mSELECT * FROM "users" INNER JOIN "roles_users" ON "users".id = "roles_users".user_id WHERE ("roles_users".role_id = 1 )[0m
+  [1m[35mUser Load (7.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mUserPlugin Load (1.0ms)[0m  [1mSELECT "user_plugins".* FROM "user_plugins" WHERE ("user_plugins".user_id = 1) ORDER BY position ASC[0m
+  [1m[35mRole Load (0.7ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Superuser' LIMIT 1
+  [1m[36mRole Load (0.8ms)[0m  [1mSELECT * FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles_users".user_id = 1 )[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."id" = 8 LIMIT 1
+  [1m[36mAREL (0.9ms)[0m  [1mUPDATE "refinery_settings" SET "value" = '--- LYNXARC
+', "updated_at" = '2011-03-03 12:53:29.092681', "callback_proc_as_string" = NULL WHERE "refinery_settings"."id" = 8[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRefinerySetting Load (6.0ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings"[0m
+Rendered text template (0.0ms)
+  [1m[35mRole Load (0.7ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1
+Completed 200 OK in 772ms (Views: 80.9ms | ActiveRecord: 24.8ms)
+
+
+Started GET "/refinery" for 127.0.0.1 at 2011-03-03 18:23:29 +0530
+  Processing by Admin::DashboardController#index as HTML
+  Parameters: {"locale"=>:en}
+  [1m[36mRole Load (0.3ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mUser Load (2.0ms)[0m  [1mSELECT * FROM "users" INNER JOIN "roles_users" ON "users".id = "roles_users".user_id WHERE ("roles_users".role_id = 1 )[0m
+  [1m[35mUser Load (1.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mUserPlugin Load (0.7ms)[0m  [1mSELECT "user_plugins".* FROM "user_plugins" WHERE ("user_plugins".user_id = 1) ORDER BY position ASC[0m
+  [1m[35mRole Load (0.4ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Superuser' LIMIT 1
+  [1m[36mRole Load (0.4ms)[0m  [1mSELECT * FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles_users".user_id = 1 )[0m
+  [1m[35mResource Load (0.3ms)[0m  SELECT "resources".* FROM "resources" ORDER BY updated_at DESC LIMIT 7
+  [1m[36mImage Load (0.3ms)[0m  [1mSELECT "images".* FROM "images" ORDER BY updated_at DESC LIMIT 7[0m
+  [1m[35mPage Load (6.4ms)[0m  SELECT "pages".* FROM "pages" ORDER BY updated_at DESC LIMIT 7
+  [1m[36mUser Load (1.5ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY updated_at DESC LIMIT 7[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSlug Load (0.9ms)[0m  [1mSELECT "slugs".* FROM "slugs" WHERE ("slugs".sluggable_id = 1 AND "slugs".sluggable_type = 'User') ORDER BY id DESC[0m
+  [1m[35mPage::Translation Load (1.4ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 3)
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSlug Load (0.9ms)[0m  SELECT "slugs".* FROM "slugs" WHERE ("slugs".sluggable_id = 3 AND "slugs".sluggable_type = 'Page') ORDER BY id DESC
+  [1m[36mPage::Translation Load (1.5ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 2)[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSlug Load (0.8ms)[0m  [1mSELECT "slugs".* FROM "slugs" WHERE ("slugs".sluggable_id = 2 AND "slugs".sluggable_type = 'Page') ORDER BY id DESC[0m
+  [1m[35mPage::Translation Load (1.4ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 1)
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSlug Load (0.9ms)[0m  SELECT "slugs".* FROM "slugs" WHERE ("slugs".sluggable_id = 1 AND "slugs".sluggable_type = 'Page') ORDER BY id DESC
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-dashboard-0.9.9.4/app/views/admin/dashboard/_recent_activity.html.erb (36.2ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-dashboard-0.9.9.4/app/views/admin/dashboard/_additional_dashboard_menu_items.html.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_html_tag.html.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/admin/_head.html.erb (6.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1[0m
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_site_bar.html.erb (6.0ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/admin/_menu.html.erb (4.3ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_no_script.html.erb (1.2ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_message.html.erb (1.4ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/admin/_javascripts.html.erb (11.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-dashboard-0.9.9.4/app/views/admin/dashboard/index.html.erb within layouts/admin (187.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1
+Completed 200 OK in 639ms (Views: 215.3ms | ActiveRecord: 24.0ms)
+
+
+Started GET "/refinery/pages" for 127.0.0.1 at 2011-03-03 18:23:41 +0530
+  [1m[36mSQL (2.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.9ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  Processing by Admin::PagesController#index as HTML
+  Parameters: {"locale"=>:en}
+  [1m[36mRole Load (0.2ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1[0m
+  [1m[35mSQL (1.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mUser Load (7.3ms)[0m  [1mSELECT * FROM "users" INNER JOIN "roles_users" ON "users".id = "roles_users".user_id WHERE ("roles_users".role_id = 1 )[0m
+  [1m[35mUser Load (2.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mUserPlugin Load (0.7ms)[0m  [1mSELECT "user_plugins".* FROM "user_plugins" WHERE ("user_plugins".user_id = 1) ORDER BY position ASC[0m
+  [1m[35mRole Load (0.3ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Superuser' LIMIT 1
+  [1m[36mRole Load (0.4ms)[0m  [1mSELECT * FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles_users".user_id = 1 )[0m
+  [1m[35mSQL (0.6ms)[0m  SELECT COUNT(DISTINCT "pages"."id") FROM "pages" LEFT OUTER JOIN "page_parts" ON "page_parts"."page_id" = "pages"."id" LEFT OUTER JOIN "slugs" ON "slugs"."sluggable_id" = "pages"."id" AND "slugs"."sluggable_type" = 'Page' LEFT OUTER JOIN "pages" "children_pages" ON "children_pages"."parent_id" = "pages"."id" LEFT OUTER JOIN "pages" "parents_pages" ON "parents_pages"."id" = "pages"."parent_id" LEFT OUTER JOIN "page_translations" ON "page_translations"."page_id" = "pages"."id" WHERE "pages"."parent_id" IS NULL
+  [1m[36mPage Load (4.9ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."parent_id" IS NULL ORDER BY lft ASC[0m
+  [1m[35mPagePart Load (0.6ms)[0m  SELECT "page_parts".* FROM "page_parts" WHERE ("page_parts".page_id IN (1,3)) ORDER BY position ASC
+  [1m[36mSlug Load (1.3ms)[0m  [1mSELECT "slugs".* FROM "slugs" WHERE ("slugs"."sluggable_id" IN (1,3) and "slugs"."sluggable_type" = 'Page') ORDER BY id DESC[0m
+  [1m[35mPage Load (2.5ms)[0m  SELECT "pages".* FROM "pages" WHERE ("pages".parent_id IN (1,3)) ORDER BY "lft"
+  [1m[36mPage::Translation Load (2.5ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE ("page_translations".page_id IN (1,3))[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRefinerySetting Load (0.3ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."name" = 'i18n_translation_frontend_locales' AND "refinery_settings"."scoping" = 'refinery' LIMIT 1[0m
+  [1m[35mAREL (0.6ms)[0m  INSERT INTO "refinery_settings" ("name", "value", "destroyable", "created_at", "updated_at", "scoping", "restricted", "callback_proc_as_string", "form_value_type") VALUES ('i18n_translation_frontend_locales', '--- 
+- :en
+', 't', '2011-03-03 12:53:42.735873', '2011-03-03 12:53:42.735873', 'refinery', 'f', '--- "::Refinery::I18n.setup!"
+', 'text_area')
+  [1m[36mSQL (2.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (4.5ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings"
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mPage::Translation Load (4.7ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 2)
+  [1m[36mPage Load (2.9ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."id" = 1 LIMIT 1[0m
+  [1m[35mPagePart Load (0.4ms)[0m  SELECT "page_parts".* FROM "page_parts" WHERE ("page_parts".page_id = 1) ORDER BY position ASC
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSlug Load (0.9ms)[0m  SELECT "slugs".* FROM "slugs" WHERE ("slugs".sluggable_id = 1 AND "slugs".sluggable_type = 'Page') ORDER BY id DESC
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSlug Load (0.9ms)[0m  SELECT "slugs".* FROM "slugs" WHERE ("slugs".sluggable_id = 2 AND "slugs".sluggable_type = 'Page') ORDER BY id DESC
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT COUNT(*) FROM "pages" WHERE ("pages".parent_id = 2)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-pages-0.9.9.4/app/views/admin/pages/_page.html.erb (38.2ms)
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-pages-0.9.9.4/app/views/admin/pages/_page.html.erb (218.9ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/admin/_sortable_list.html.erb (0.9ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-pages-0.9.9.4/app/views/admin/pages/_sortable_list.html.erb (407.5ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/admin/_search.html.erb (1.5ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/admin/_make_sortable.html.erb (2.2ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_html_tag.html.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/admin/_head.html.erb (6.4ms)
+  [1m[35mRole Load (0.3ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_site_bar.html.erb (8.2ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/admin/_menu.html.erb (7.0ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_no_script.html.erb (4.2ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_message.html.erb (1.2ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/admin/_javascripts.html.erb (13.9ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-pages-0.9.9.4/app/views/admin/pages/index.html.erb within layouts/admin (785.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1[0m
+Completed 200 OK in 1257ms (Views: 785.2ms | ActiveRecord: 51.0ms)
+
+
+Started GET "/refinery/pages/about/edit" for 127.0.0.1 at 2011-03-03 18:23:49 +0530
+  [1m[35mSQL (2.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.9ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  Processing by Admin::PagesController#edit as HTML
+  Parameters: {"id"=>"about", "locale"=>:en}
+  [1m[35mSQL (0.3ms)[0m  SELECT sluggable_id FROM slugs WHERE ((slugs.sluggable_type = 'Page' AND slugs.name = 'about' AND slugs.sequence = 1))
+  [1m[36mPage Load (7.2ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."id" = 3 LIMIT 1[0m
+  [1m[35mPagePart Load (0.4ms)[0m  SELECT "page_parts".* FROM "page_parts" WHERE ("page_parts".page_id = 3) ORDER BY position ASC
+  [1m[36mSlug Load (1.1ms)[0m  [1mSELECT "slugs".* FROM "slugs" WHERE ("slugs"."sluggable_id" = 3 and "slugs"."sluggable_type" = 'Page') ORDER BY id DESC[0m
+  [1m[35mPage Load (0.4ms)[0m  SELECT "pages".* FROM "pages" WHERE ("pages".parent_id = 3) ORDER BY "lft"
+  [1m[36mPage::Translation Load (2.0ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE ("page_translations".page_id = 3)[0m
+  [1m[35mSlug Load (1.5ms)[0m  SELECT "slugs".* FROM "slugs" WHERE ("slugs".sluggable_id = 3 AND "slugs".sluggable_type = 'Page' AND ("slugs"."locale" = 'en')) ORDER BY id DESC LIMIT 1
+  [1m[36mRole Load (0.3ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1[0m
+  [1m[35mSQL (0.9ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mUser Load (7.2ms)[0m  [1mSELECT * FROM "users" INNER JOIN "roles_users" ON "users".id = "roles_users".user_id WHERE ("roles_users".role_id = 1 )[0m
+  [1m[35mUser Load (2.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mUserPlugin Load (0.7ms)[0m  [1mSELECT "user_plugins".* FROM "user_plugins" WHERE ("user_plugins".user_id = 1) ORDER BY position ASC[0m
+  [1m[35mRole Load (0.3ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Superuser' LIMIT 1
+  [1m[36mRole Load (0.4ms)[0m  [1mSELECT * FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles_users".user_id = 1 )[0m
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/admin/_error_messages.html.erb (1.3ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-pages-0.9.9.4/app/views/admin/pages/_locale_picker.html.erb (1.3ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-pages-0.9.9.4/app/views/admin/pages/_form_fields_after_title.html.erb (0.7ms)
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRefinerySetting Load (0.4ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."name" = 'new_page_parts' AND "refinery_settings"."scoping" IS NULL LIMIT 1[0m
+  [1m[35mAREL (0.6ms)[0m  INSERT INTO "refinery_settings" ("name", "value", "destroyable", "created_at", "updated_at", "scoping", "restricted", "callback_proc_as_string", "form_value_type") VALUES ('new_page_parts', '--- "false"
+', 't', '2011-03-03 12:53:51.204150', '2011-03-03 12:53:51.204150', NULL, 'f', NULL, 'text_area')
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (5.3ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings"
+  [1m[36mPagePart::Translation Load (0.5ms)[0m  [1mSELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = 4)[0m
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-pages-0.9.9.4/app/views/admin/pages/_page_part_field.html.erb (129.5ms)
+  [1m[35mPagePart::Translation Load (0.5ms)[0m  SELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = 5)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-pages-0.9.9.4/app/views/admin/pages/_page_part_field.html.erb (3.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-pages-0.9.9.4/app/views/admin/pages/_form_page_parts.html.erb (317.4ms)
+  [1m[36mPage Load (5.7ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."parent_id" IS NULL ORDER BY "lft"[0m
+  [1m[35mPage Load (4.4ms)[0m  SELECT "pages".* FROM "pages" WHERE ("pages"."lft" >= 1 AND "pages"."rgt" <= 4) ORDER BY "lft"
+  [1m[36mPagePart Load (0.5ms)[0m  [1mSELECT "page_parts".* FROM "page_parts" WHERE ("page_parts".page_id = 1) ORDER BY position ASC[0m
+  [1m[35mPage::Translation Load (1.5ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 1)
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE ("pages"."lft" <= 2 AND "pages"."rgt" >= 3) AND ("pages".id != 2)[0m
+  [1m[35mPage::Translation Load (1.5ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 2)
+  [1m[36mPage Load (3.6ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE ("pages"."lft" >= 5 AND "pages"."rgt" <= 6) ORDER BY "lft"[0m
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-pages-0.9.9.4/app/views/admin/pages/_form_advanced_options_seo.html.erb (3.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-pages-0.9.9.4/app/views/admin/pages/_form_advanced_options.html.erb (66.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/admin/_continue_editing.html.erb (1.1ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/admin/_form_actions.html.erb (27.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-pages-0.9.9.4/app/views/admin/pages/_form.html.erb (474.5ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_html_tag.html.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/admin/_head.html.erb (6.4ms)
+  [1m[35mRole Load (0.4ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_site_bar.html.erb (5.0ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/admin/_menu.html.erb (4.5ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_no_script.html.erb (1.2ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_message.html.erb (1.2ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/admin/_javascripts.html.erb (10.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-pages-0.9.9.4/app/views/admin/pages/edit.html.erb within layouts/admin (600.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1[0m
+Completed 200 OK in 1520ms (Views: 629.0ms | ActiveRecord: 54.8ms)
+
+
+Started POST "/refinery/pages/3" for 127.0.0.1 at 2011-03-03 18:24:22 +0530
+  [1m[35mSQL (6.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.9ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  Processing by Admin::PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z7sggyIofUWnwW2LNrTSg+qVegDSnfVN589SGy3Pmsc=", "switch_locale"=>"en", "page"=>{"title"=>"About", "parts_attributes"=>{"0"=>{"body"=>"<p>This is Lynxarc project</p>", "id"=>"4"}, "1"=>{"body"=>"<p>Test</p>", "id"=>"5"}}, "draft"=>"0", "parent_id"=>"", "custom_title_type"=>"none", "custom_title"=>"", "skip_to_first_child"=>"0", "link_url"=>"", "show_in_menu"=>"1", "browser_title"=>"", "meta_keywords"=>"", "meta_description"=>""}, "continue_editing"=>"false", "id"=>"3", "locale"=>:en}
+  [1m[35mSQL (0.3ms)[0m  SELECT sluggable_id FROM slugs WHERE ((slugs.sluggable_type = 'Page' AND slugs.name = '3' AND slugs.sequence = 1))
+  [1m[36mPage Load (3.3ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."id" = 3 LIMIT 1[0m
+  [1m[35mPagePart Load (0.5ms)[0m  SELECT "page_parts".* FROM "page_parts" WHERE ("page_parts".page_id = 3) ORDER BY position ASC
+  [1m[36mSlug Load (0.8ms)[0m  [1mSELECT "slugs".* FROM "slugs" WHERE ("slugs"."sluggable_id" = 3 and "slugs"."sluggable_type" = 'Page') ORDER BY id DESC[0m
+  [1m[35mPage Load (0.4ms)[0m  SELECT "pages".* FROM "pages" WHERE ("pages".parent_id = 3) ORDER BY "lft"
+  [1m[36mPage::Translation Load (1.2ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE ("page_translations".page_id = 3)[0m
+  [1m[35mRole Load (0.3ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (1.6ms)[0m  SELECT * FROM "users" INNER JOIN "roles_users" ON "users".id = "roles_users".user_id WHERE ("roles_users".role_id = 1 )
+  [1m[36mUser Load (1.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mUserPlugin Load (0.7ms)[0m  SELECT "user_plugins".* FROM "user_plugins" WHERE ("user_plugins".user_id = 1) ORDER BY position ASC
+  [1m[36mRole Load (0.4ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Superuser' LIMIT 1[0m
+  [1m[35mRole Load (0.4ms)[0m  SELECT * FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles_users".user_id = 1 )
+  [1m[36mPagePart::Translation Load (0.5ms)[0m  [1mSELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = 4)[0m
+  [1m[35mPagePart::Translation Load (0.4ms)[0m  SELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = 5)
+  [1m[36mSlug Load (0.7ms)[0m  [1mSELECT "slugs".* FROM "slugs" WHERE ("slugs".sluggable_id = 3 AND "slugs".sluggable_type = 'Page' AND ("slugs"."locale" = 'en')) ORDER BY id DESC LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."id" = 3 LIMIT 1
+  [1m[36mPage::Translation Load (1.4ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 3)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 3)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 3)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 3)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "page_parts".* FROM "page_parts" WHERE ("page_parts".page_id = 3) ORDER BY position ASC[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = 4)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = 5)[0m
+  [1m[35mAREL (0.5ms)[0m  UPDATE "pages" SET "custom_title" = '', "link_url" = '', "browser_title" = '', "meta_keywords" = '', "meta_description" = '', "updated_at" = '2011-03-03 12:54:23.937666' WHERE "pages"."id" = 3
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE "page_parts" SET "body" = '<p>This is Lynxarc project</p>', "updated_at" = '2011-03-03 12:54:23.953776' WHERE "page_parts"."id" = 4[0m
+  [1m[35mPagePart::Translation Load (0.3ms)[0m  SELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = 4) LIMIT 1
+  [1m[36mAREL (0.3ms)[0m  [1mUPDATE "page_part_translations" SET "body" = '<p>This is Lynxarc project</p>', "updated_at" = '2011-03-03 12:54:23.968298' WHERE "page_part_translations"."id" = 4[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE "page_parts" SET "body" = '<p>Test</p>', "updated_at" = '2011-03-03 12:54:23.974561' WHERE "page_parts"."id" = 5
+  [1m[36mPagePart::Translation Load (0.3ms)[0m  [1mSELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = 5) LIMIT 1[0m
+  [1m[35mAREL (0.2ms)[0m  UPDATE "page_part_translations" SET "body" = '<p>Test</p>', "updated_at" = '2011-03-03 12:54:23.983802' WHERE "page_part_translations"."id" = 5
+  [1m[36mPage::Translation Load (102.1ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 3) LIMIT 1[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE "page_translations" SET "browser_title" = '', "meta_keywords" = '', "meta_description" = '', "updated_at" = '2011-03-03 12:54:24.090922' WHERE "page_translations"."id" = 3
+Redirected to http://localhost:3000/refinery/pages
+  [1m[36mRole Load (0.4ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1[0m
+Completed 302 Found in 1208ms
+
+
+Started GET "/refinery/pages" for 127.0.0.1 at 2011-03-03 18:24:24 +0530
+  [1m[35mSQL (1.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  Processing by Admin::PagesController#index as HTML
+  Parameters: {"locale"=>:en}
+  [1m[35mRole Load (0.3ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (1.6ms)[0m  SELECT * FROM "users" INNER JOIN "roles_users" ON "users".id = "roles_users".user_id WHERE ("roles_users".role_id = 1 )
+  [1m[36mUser Load (1.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mUserPlugin Load (0.7ms)[0m  SELECT "user_plugins".* FROM "user_plugins" WHERE ("user_plugins".user_id = 1) ORDER BY position ASC
+  [1m[36mRole Load (0.3ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Superuser' LIMIT 1[0m
+  [1m[35mRole Load (0.4ms)[0m  SELECT * FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles_users".user_id = 1 )
+  [1m[36mSQL (0.6ms)[0m  [1mSELECT COUNT(DISTINCT "pages"."id") FROM "pages" LEFT OUTER JOIN "page_parts" ON "page_parts"."page_id" = "pages"."id" LEFT OUTER JOIN "slugs" ON "slugs"."sluggable_id" = "pages"."id" AND "slugs"."sluggable_type" = 'Page' LEFT OUTER JOIN "pages" "children_pages" ON "children_pages"."parent_id" = "pages"."id" LEFT OUTER JOIN "pages" "parents_pages" ON "parents_pages"."id" = "pages"."parent_id" LEFT OUTER JOIN "page_translations" ON "page_translations"."page_id" = "pages"."id" WHERE "pages"."parent_id" IS NULL[0m
+  [1m[35mPage Load (101.9ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."parent_id" IS NULL ORDER BY lft ASC
+  [1m[36mPagePart Load (0.6ms)[0m  [1mSELECT "page_parts".* FROM "page_parts" WHERE ("page_parts".page_id IN (1,3)) ORDER BY position ASC[0m
+  [1m[35mSlug Load (1.3ms)[0m  SELECT "slugs".* FROM "slugs" WHERE ("slugs"."sluggable_id" IN (1,3) and "slugs"."sluggable_type" = 'Page') ORDER BY id DESC
+  [1m[36mPage Load (2.5ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE ("pages".parent_id IN (1,3)) ORDER BY "lft"[0m
+  [1m[35mPage::Translation Load (1.6ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE ("page_translations".page_id IN (1,3))
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mPage::Translation Load (1.5ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 2)
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSlug Load (0.9ms)[0m  SELECT "slugs".* FROM "slugs" WHERE ("slugs".sluggable_id = 2 AND "slugs".sluggable_type = 'Page') ORDER BY id DESC
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT COUNT(*) FROM "pages" WHERE ("pages".parent_id = 2)[0m
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-pages-0.9.9.4/app/views/admin/pages/_page.html.erb (25.2ms)
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-pages-0.9.9.4/app/views/admin/pages/_page.html.erb (49.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/admin/_sortable_list.html.erb (0.9ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-pages-0.9.9.4/app/views/admin/pages/_sortable_list.html.erb (224.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/admin/_search.html.erb (1.5ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/admin/_make_sortable.html.erb (3.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_html_tag.html.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/admin/_head.html.erb (6.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1[0m
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_site_bar.html.erb (4.4ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/admin/_menu.html.erb (4.3ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_no_script.html.erb (1.2ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_message.html.erb (6.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/admin/_javascripts.html.erb (8.5ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-pages-0.9.9.4/app/views/admin/pages/index.html.erb within layouts/admin (497.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1
+Completed 200 OK in 919ms (Views: 420.2ms | ActiveRecord: 120.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-03 18:24:32 +0530
+  Processing by PagesController#home as HTML
+  Parameters: {"locale"=>:en}
+  [1m[36mSQL (2.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRole Load (0.7ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1
+  [1m[36mSQL (0.9ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (2.8ms)[0m  SELECT * FROM "users" INNER JOIN "roles_users" ON "users".id = "roles_users".user_id WHERE ("roles_users".role_id = 1 )
+  [1m[36mPage Load (3.0ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."link_url" = '/' LIMIT 1[0m
+  [1m[35mSQL (5.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRefinerySetting Load (0.3ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."name" = 'page_title' AND "refinery_settings"."scoping" IS NULL LIMIT 1[0m
+  [1m[35mAREL (0.9ms)[0m  INSERT INTO "refinery_settings" ("name", "value", "destroyable", "created_at", "updated_at", "scoping", "restricted", "callback_proc_as_string", "form_value_type") VALUES ('page_title', '--- 
+:chain_page_title: false
+:ancestors: 
+ :separator: " | "
+ :class: ancestors
+ :tag: span
+:page_title: 
+ :class: 
+ :tag: 
+ :wrap_if_not_chained: false
+', 't', '2011-03-03 12:54:34.137604', '2011-03-03 12:54:34.137604', NULL, 'f', NULL, 'text_area')
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (17.5ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings"
+  [1m[36mPage::Translation Load (2.1ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 1)[0m
+  [1m[35mPagePart Load (0.5ms)[0m  SELECT "page_parts".* FROM "page_parts" WHERE ("page_parts".page_id = 1) ORDER BY position ASC
+  [1m[36mPagePart::Translation Load (0.5ms)[0m  [1mSELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = 1)[0m
+  [1m[35mPagePart::Translation Load (0.4ms)[0m  SELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = 2)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_content_page.html.erb (545.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_html_tag.html.erb (0.7ms)
+  [1m[36mUser Load (1.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mRole Load (0.3ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1
+  [1m[36mRole Load (0.4ms)[0m  [1mSELECT * FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles_users".user_id = 1 )[0m
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_site_bar.html.erb (174.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 1)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 1)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 1)
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (0.3ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."name" = 'authenticity_token_on_frontend' AND "refinery_settings"."scoping" IS NULL LIMIT 1
+  [1m[36mAREL (0.6ms)[0m  [1mINSERT INTO "refinery_settings" ("name", "value", "destroyable", "created_at", "updated_at", "scoping", "restricted", "callback_proc_as_string", "form_value_type") VALUES ('authenticity_token_on_frontend', '--- "true"
+', 't', '2011-03-03 12:54:34.705900', '2011-03-03 12:54:34.705900', NULL, 'f', NULL, 'text_area')[0m
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRefinerySetting Load (6.0ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings"[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mRefinerySetting Load (0.3ms)[0m  [1mSELECT "refinery_settings".* FROM "refinery_settings" WHERE "refinery_settings"."name" = 'frontend_refinery_stylesheets_enabled' AND "refinery_settings"."scoping" IS NULL LIMIT 1[0m
+  [1m[35mAREL (0.6ms)[0m  INSERT INTO "refinery_settings" ("name", "value", "destroyable", "created_at", "updated_at", "scoping", "restricted", "callback_proc_as_string", "form_value_type") VALUES ('frontend_refinery_stylesheets_enabled', '--- "true"
+', 't', '2011-03-03 12:54:34.833355', '2011-03-03 12:54:34.833355', NULL, 'f', NULL, 'text_area')
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (7.1ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings"
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_head.html.erb (169.5ms)
+  [1m[36mPage Load (12.6ms)[0m  [1mSELECT "pages"."id" AS t0_r0, "pages"."title" AS t0_r1, "pages"."parent_id" AS t0_r2, "pages"."position" AS t0_r3, "pages"."path" AS t0_r4, "pages"."created_at" AS t0_r5, "pages"."updated_at" AS t0_r6, "pages"."meta_keywords" AS t0_r7, "pages"."meta_description" AS t0_r8, "pages"."show_in_menu" AS t0_r9, "pages"."link_url" AS t0_r10, "pages"."menu_match" AS t0_r11, "pages"."deletable" AS t0_r12, "pages"."custom_title" AS t0_r13, "pages"."custom_title_type" AS t0_r14, "pages"."draft" AS t0_r15, "pages"."browser_title" AS t0_r16, "pages"."skip_to_first_child" AS t0_r17, "pages"."lft" AS t0_r18, "pages"."rgt" AS t0_r19, "pages"."depth" AS t0_r20, "page_translations"."id" AS t1_r0, "page_translations"."page_id" AS t1_r1, "page_translations"."locale" AS t1_r2, "page_translations"."title" AS t1_r3, "page_translations"."meta_keywords" AS t1_r4, "page_translations"."meta_description" AS t1_r5, "page_translations"."browser_title" AS t1_r6, "page_translations"."created_at" AS t1_r7, "page_translations"."updated_at" AS t1_r8, "page_parts"."id" AS t2_r0, "page_parts"."page_id" AS t2_r1, "page_parts"."title" AS t2_r2, "page_parts"."body" AS t2_r3, "page_parts"."position" AS t2_r4, "page_parts"."created_at" AS t2_r5, "page_parts"."updated_at" AS t2_r6, "slugs"."id" AS t3_r0, "slugs"."name" AS t3_r1, "slugs"."sluggable_id" AS t3_r2, "slugs"."sequence" AS t3_r3, "slugs"."sluggable_type" AS t3_r4, "slugs"."scope" AS t3_r5, "slugs"."created_at" AS t3_r6, "slugs"."locale" AS t3_r7 FROM "pages" LEFT OUTER JOIN "page_translations" ON "page_translations"."page_id" = "pages"."id" LEFT OUTER JOIN "page_parts" ON "page_parts"."page_id" = "pages"."id" LEFT OUTER JOIN "slugs" ON "slugs"."sluggable_id" = "pages"."id" AND "slugs"."sluggable_type" = 'Page' WHERE "pages"."draft" = 'f' AND "pages"."show_in_menu" = 't' AND "page_translations"."locale" = 'en' AND "pages"."id" = "page_translations"."page_id" ORDER BY lft ASC[0m
+  [1m[35mPagePart Load (0.3ms)[0m  SELECT "page_parts".* FROM "page_parts" WHERE ("page_parts".page_id = NULL) ORDER BY position ASC
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "page_parts".* FROM "page_parts" WHERE ("page_parts".page_id = NULL) ORDER BY position ASC[0m
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_menu_branch.html.erb (5.5ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_menu.html.erb (59.3ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_header.html.erb (71.1ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_footer.html.erb (1.3ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_javascripts.html.erb (1.1ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-pages-0.9.9.4/app/views/pages/home.html.erb within layouts/application (1069.7ms)
+  [1m[35mRole Load (0.3ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1
+Completed 200 OK in 1990ms (Views: 1094.4ms | ActiveRecord: 197.1ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2011-03-03 18:24:41 +0530
+  Processing by PagesController#show as HTML
+  Parameters: {"path"=>"about", "locale"=>:en}
+  [1m[36mSQL (2.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRole Load (0.7ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1
+  [1m[36mSQL (0.9ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (2.8ms)[0m  SELECT * FROM "users" INNER JOIN "roles_users" ON "users".id = "roles_users".user_id WHERE ("roles_users".role_id = 1 )
+  [1m[36mSQL (0.7ms)[0m  [1mSELECT sluggable_id FROM slugs WHERE ((slugs.sluggable_type = 'Page' AND slugs.name = 'about' AND slugs.sequence = 1))[0m
+  [1m[35mPage Load (2.1ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."id" = 3 LIMIT 1
+  [1m[36mPage::Translation Load (0.4ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 3)[0m
+  [1m[35mPagePart Load (0.6ms)[0m  SELECT "page_parts".* FROM "page_parts" WHERE ("page_parts".page_id = 3) ORDER BY position ASC
+  [1m[36mPagePart::Translation Load (0.5ms)[0m  [1mSELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = 4)[0m
+  [1m[35mPagePart::Translation Load (0.5ms)[0m  SELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = 5)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_content_page.html.erb (360.9ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_html_tag.html.erb (0.9ms)
+  [1m[36mUser Load (1.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1
+  [1m[36mRole Load (0.4ms)[0m  [1mSELECT * FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles_users".user_id = 1 )[0m
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_site_bar.html.erb (171.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 3)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 3)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 3)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_head.html.erb (11.3ms)
+  [1m[36mPage Load (108.6ms)[0m  [1mSELECT "pages"."id" AS t0_r0, "pages"."title" AS t0_r1, "pages"."parent_id" AS t0_r2, "pages"."position" AS t0_r3, "pages"."path" AS t0_r4, "pages"."created_at" AS t0_r5, "pages"."updated_at" AS t0_r6, "pages"."meta_keywords" AS t0_r7, "pages"."meta_description" AS t0_r8, "pages"."show_in_menu" AS t0_r9, "pages"."link_url" AS t0_r10, "pages"."menu_match" AS t0_r11, "pages"."deletable" AS t0_r12, "pages"."custom_title" AS t0_r13, "pages"."custom_title_type" AS t0_r14, "pages"."draft" AS t0_r15, "pages"."browser_title" AS t0_r16, "pages"."skip_to_first_child" AS t0_r17, "pages"."lft" AS t0_r18, "pages"."rgt" AS t0_r19, "pages"."depth" AS t0_r20, "page_translations"."id" AS t1_r0, "page_translations"."page_id" AS t1_r1, "page_translations"."locale" AS t1_r2, "page_translations"."title" AS t1_r3, "page_translations"."meta_keywords" AS t1_r4, "page_translations"."meta_description" AS t1_r5, "page_translations"."browser_title" AS t1_r6, "page_translations"."created_at" AS t1_r7, "page_translations"."updated_at" AS t1_r8, "page_parts"."id" AS t2_r0, "page_parts"."page_id" AS t2_r1, "page_parts"."title" AS t2_r2, "page_parts"."body" AS t2_r3, "page_parts"."position" AS t2_r4, "page_parts"."created_at" AS t2_r5, "page_parts"."updated_at" AS t2_r6, "slugs"."id" AS t3_r0, "slugs"."name" AS t3_r1, "slugs"."sluggable_id" AS t3_r2, "slugs"."sequence" AS t3_r3, "slugs"."sluggable_type" AS t3_r4, "slugs"."scope" AS t3_r5, "slugs"."created_at" AS t3_r6, "slugs"."locale" AS t3_r7 FROM "pages" LEFT OUTER JOIN "page_translations" ON "page_translations"."page_id" = "pages"."id" LEFT OUTER JOIN "page_parts" ON "page_parts"."page_id" = "pages"."id" LEFT OUTER JOIN "slugs" ON "slugs"."sluggable_id" = "pages"."id" AND "slugs"."sluggable_type" = 'Page' WHERE "pages"."draft" = 'f' AND "pages"."show_in_menu" = 't' AND "page_translations"."locale" = 'en' AND "pages"."id" = "page_translations"."page_id" ORDER BY lft ASC[0m
+  [1m[35mPagePart Load (0.4ms)[0m  SELECT "page_parts".* FROM "page_parts" WHERE ("page_parts".page_id = NULL) ORDER BY position ASC
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "page_parts".* FROM "page_parts" WHERE ("page_parts".page_id = NULL) ORDER BY position ASC[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_menu_branch.html.erb (7.9ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_menu.html.erb (160.3ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_header.html.erb (175.0ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_footer.html.erb (1.2ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_javascripts.html.erb (1.1ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-pages-0.9.9.4/app/views/pages/show.html.erb within layouts/application (820.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1[0m
+Completed 200 OK in 1775ms (Views: 806.6ms | ActiveRecord: 123.4ms)
+  [1m[36mSQL (1.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (3.8ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings"
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (1.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mRefinerySetting Load (3.6ms)[0m  SELECT "refinery_settings".* FROM "refinery_settings"
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-03 18:52:32 +0530
+  Processing by PagesController#home as HTML
+  Parameters: {"locale"=>:en}
+  [1m[36mRole Load (0.2ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1[0m
+  [1m[35mUser Load (2.3ms)[0m  SELECT * FROM "users" INNER JOIN "roles_users" ON "users".id = "roles_users".user_id WHERE ("roles_users".role_id = 1 )
+  [1m[36mPage Load (3.0ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."link_url" = '/' LIMIT 1[0m
+  [1m[35mPage::Translation Load (2.1ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 1)
+  [1m[36mPagePart Load (0.8ms)[0m  [1mSELECT "page_parts".* FROM "page_parts" WHERE ("page_parts".page_id = 1) ORDER BY position ASC[0m
+  [1m[35mPagePart::Translation Load (0.8ms)[0m  SELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = 1)
+  [1m[36mPagePart::Translation Load (0.3ms)[0m  [1mSELECT "page_part_translations".* FROM "page_part_translations" WHERE "page_part_translations"."locale" IN ('en') AND ("page_part_translations".page_part_id = 2)[0m
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_content_page.html.erb (458.9ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_html_tag.html.erb (4.9ms)
+  [1m[35mUser Load (110.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1[0m
+  [1m[35mRole Load (0.8ms)[0m  SELECT * FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles_users".user_id = 1 )
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_site_bar.html.erb (235.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 1)[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 1)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 1)[0m
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_head.html.erb (21.1ms)
+  [1m[35mPage Load (25.0ms)[0m  SELECT "pages"."id" AS t0_r0, "pages"."title" AS t0_r1, "pages"."parent_id" AS t0_r2, "pages"."position" AS t0_r3, "pages"."path" AS t0_r4, "pages"."created_at" AS t0_r5, "pages"."updated_at" AS t0_r6, "pages"."meta_keywords" AS t0_r7, "pages"."meta_description" AS t0_r8, "pages"."show_in_menu" AS t0_r9, "pages"."link_url" AS t0_r10, "pages"."menu_match" AS t0_r11, "pages"."deletable" AS t0_r12, "pages"."custom_title" AS t0_r13, "pages"."custom_title_type" AS t0_r14, "pages"."draft" AS t0_r15, "pages"."browser_title" AS t0_r16, "pages"."skip_to_first_child" AS t0_r17, "pages"."lft" AS t0_r18, "pages"."rgt" AS t0_r19, "pages"."depth" AS t0_r20, "page_translations"."id" AS t1_r0, "page_translations"."page_id" AS t1_r1, "page_translations"."locale" AS t1_r2, "page_translations"."title" AS t1_r3, "page_translations"."meta_keywords" AS t1_r4, "page_translations"."meta_description" AS t1_r5, "page_translations"."browser_title" AS t1_r6, "page_translations"."created_at" AS t1_r7, "page_translations"."updated_at" AS t1_r8, "page_parts"."id" AS t2_r0, "page_parts"."page_id" AS t2_r1, "page_parts"."title" AS t2_r2, "page_parts"."body" AS t2_r3, "page_parts"."position" AS t2_r4, "page_parts"."created_at" AS t2_r5, "page_parts"."updated_at" AS t2_r6, "slugs"."id" AS t3_r0, "slugs"."name" AS t3_r1, "slugs"."sluggable_id" AS t3_r2, "slugs"."sequence" AS t3_r3, "slugs"."sluggable_type" AS t3_r4, "slugs"."scope" AS t3_r5, "slugs"."created_at" AS t3_r6, "slugs"."locale" AS t3_r7 FROM "pages" LEFT OUTER JOIN "page_translations" ON "page_translations"."page_id" = "pages"."id" LEFT OUTER JOIN "page_parts" ON "page_parts"."page_id" = "pages"."id" LEFT OUTER JOIN "slugs" ON "slugs"."sluggable_id" = "pages"."id" AND "slugs"."sluggable_type" = 'Page' WHERE "pages"."draft" = 'f' AND "pages"."show_in_menu" = 't' AND "page_translations"."locale" = 'en' AND "pages"."id" = "page_translations"."page_id" ORDER BY lft ASC
+  [1m[36mPagePart Load (0.7ms)[0m  [1mSELECT "page_parts".* FROM "page_parts" WHERE ("page_parts".page_id = NULL) ORDER BY position ASC[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "page_parts".* FROM "page_parts" WHERE ("page_parts".page_id = NULL) ORDER BY position ASC
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_menu_branch.html.erb (15.3ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_menu.html.erb (126.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_header.html.erb (145.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_footer.html.erb (2.1ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_javascripts.html.erb (1.4ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-pages-0.9.9.4/app/views/pages/home.html.erb within layouts/application (1034.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1
+Completed 200 OK in 1509ms (Views: 973.6ms | ActiveRecord: 147.6ms)
+
+
+Started GET "/refinery" for 127.0.0.1 at 2011-03-03 18:52:42 +0530
+  Processing by Admin::DashboardController#index as HTML
+  Parameters: {"locale"=>:en}
+  [1m[36mRole Load (0.3ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1[0m
+  [1m[35mSQL (0.9ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mUser Load (7.0ms)[0m  [1mSELECT * FROM "users" INNER JOIN "roles_users" ON "users".id = "roles_users".user_id WHERE ("roles_users".role_id = 1 )[0m
+  [1m[35mUser Load (2.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mUserPlugin Load (1.0ms)[0m  [1mSELECT "user_plugins".* FROM "user_plugins" WHERE ("user_plugins".user_id = 1) ORDER BY position ASC[0m
+  [1m[35mRole Load (0.3ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Superuser' LIMIT 1
+  [1m[36mRole Load (0.7ms)[0m  [1mSELECT * FROM "roles" INNER JOIN "roles_users" ON "roles".id = "roles_users".role_id WHERE ("roles_users".user_id = 1 )[0m
+  [1m[35mResource Load (0.7ms)[0m  SELECT "resources".* FROM "resources" ORDER BY updated_at DESC LIMIT 7
+  [1m[36mImage Load (0.3ms)[0m  [1mSELECT "images".* FROM "images" ORDER BY updated_at DESC LIMIT 7[0m
+  [1m[35mPage Load (6.2ms)[0m  SELECT "pages".* FROM "pages" ORDER BY updated_at DESC LIMIT 7
+  [1m[36mUser Load (2.2ms)[0m  [1mSELECT "users".* FROM "users" ORDER BY updated_at DESC LIMIT 7[0m
+  [1m[35mPage::Translation Load (0.8ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 3)
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSlug Load (4.9ms)[0m  SELECT "slugs".* FROM "slugs" WHERE ("slugs".sluggable_id = 3 AND "slugs".sluggable_type = 'Page') ORDER BY id DESC
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSlug Load (1.8ms)[0m  SELECT "slugs".* FROM "slugs" WHERE ("slugs".sluggable_id = 1 AND "slugs".sluggable_type = 'User') ORDER BY id DESC
+  [1m[36mPage::Translation Load (2.1ms)[0m  [1mSELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 2)[0m
+  [1m[35mSQL (0.8ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSlug Load (1.6ms)[0m  [1mSELECT "slugs".* FROM "slugs" WHERE ("slugs".sluggable_id = 2 AND "slugs".sluggable_type = 'Page') ORDER BY id DESC[0m
+  [1m[35mPage::Translation Load (2.1ms)[0m  SELECT "page_translations".* FROM "page_translations" WHERE "page_translations"."locale" IN ('en') AND ("page_translations".page_id = 1)
+  [1m[36mSQL (4.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSlug Load (1.1ms)[0m  SELECT "slugs".* FROM "slugs" WHERE ("slugs".sluggable_id = 1 AND "slugs".sluggable_type = 'Page') ORDER BY id DESC
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-dashboard-0.9.9.4/app/views/admin/dashboard/_recent_activity.html.erb (69.2ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-dashboard-0.9.9.4/app/views/admin/dashboard/_additional_dashboard_menu_items.html.erb (1.1ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_html_tag.html.erb (1.1ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/admin/_head.html.erb (14.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1[0m
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_site_bar.html.erb (7.0ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/admin/_menu.html.erb (12.1ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_no_script.html.erb (2.0ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/shared/_message.html.erb (1.5ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-core-0.9.9.4/app/views/admin/_javascripts.html.erb (14.1ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/refinerycms-dashboard-0.9.9.4/app/views/admin/dashboard/index.html.erb within layouts/admin (465.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "roles".* FROM "roles" WHERE "roles"."title" = 'Refinery' LIMIT 1
+Completed 200 OK in 1200ms (Views: 516.9ms | ActiveRecord: 42.7ms)
